@@ -1,4 +1,4 @@
-#Sun Jan 28 20:37:06 CST 2018
+#Sun Jan 28 22:42:42 CST 2018
 base.0=/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBaseDemo/build/intermediates/transforms/dexMerger/debug/30
 path.0=classes.dex
 renamed.0=classes.dex

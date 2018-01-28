@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GmlAndBase.iml" filepath="$PROJECT_DIR$/GmlAndBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/andBase/andBase.iml" filepath="$PROJECT_DIR$/andBase/andBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/andBaseDemo/andBaseDemo.iml" filepath="$PROJECT_DIR$/andBaseDemo/andBaseDemo.iml" />
+    </modules>
+  </component>
+</project>

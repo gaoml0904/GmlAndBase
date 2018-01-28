@@ -1,21 +1,6 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/maolingao/AndroidStudioProjects/AndBaseDemo/andBase/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
-            "map": [
-                {
-                    "source": "/Users/maolingao/AndroidStudioProjects/AndBaseDemo/andBase/build/intermediates/bundles/debug/res/values/values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "44",
-                        "endOffsets": "95"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBase/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
             "map": [
                 {

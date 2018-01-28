@@ -1075,9 +1075,9 @@ public class CarouselImageView extends CarouselSpinner implements GestureDetecto
     	
     	angleOffset = angleOffset * (float)(Math.PI/180.0f);    	
 
-    	float x = - (float)(diameter/2  * android.util.FloatMath.sin(angleOffset)) + diameter/2 - child.getWidth()/2;
-    	float z = diameter/2 * (1.0f - (float)android.util.FloatMath.cos(angleOffset));
-    	float y = - getHeight()/2 + (float) (z * android.util.FloatMath.sin(mTheta));
+    	float x = - (float)(diameter/2  * Math.sin(angleOffset)) + diameter/2 - child.getWidth()/2;
+    	float z = diameter/2 * (1.0f - (float)Math.cos(angleOffset));
+    	float y = - getHeight()/2 + (float) (z * Math.sin(mTheta));
 
     	child.setItemX(x);
     	child.setItemZ(z);

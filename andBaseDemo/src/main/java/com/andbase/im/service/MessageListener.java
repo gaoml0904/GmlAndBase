@@ -52,7 +52,7 @@ public class MessageListener implements PacketListener {
 					//获取通知管理器
 		            mNotificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
 		            //设置通知的图标与提示的内容
-		            Notification notification = new Notification(R.drawable.ic_launcher,"新消息",System.currentTimeMillis());
+		            //Notification notification = new Notification(R.drawable.ic_launcher,"新消息",System.currentTimeMillis());
 		            //点击跳转
 		            Intent mIntent  = new Intent(context, MessageActivity.class);
 		            if(mIMMessage.getMessageType() == IMMessage.ADD_FRIEND_MSG){
@@ -71,7 +71,13 @@ public class MessageListener implements PacketListener {
 		            PendingIntent contentIntent = PendingIntent.getActivity(context, 0,mIntent, 0);
 			        
 			        //设置通知的标题与显示的内容及点击通知后的跳转
-			        notification.setLatestEventInfo(context,mIMMessage.getTitle(), mIMMessage.getContent(), contentIntent);
+					Notification notification = new Notification.Builder(context)
+							.setContentTitle(mIMMessage.getTitle())
+							.setContentText("新消息")
+							.setContentIntent(contentIntent)
+							.setSmallIcon(R.drawable.ic_launcher)
+							.build();
+
 			        //点击notification之后，该notification自动消失
 			        notification.flags = Notification.FLAG_AUTO_CANCEL;
 			        //notification被notify的时候，触发默认声音和默认震动
