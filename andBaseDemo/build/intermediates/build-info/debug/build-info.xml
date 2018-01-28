@@ -6,7 +6,7 @@
     density="xhdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1517150546137"
+    timestamp="1517151426730"
     token="528092137086811051"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -18,10 +18,10 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="456" />
+        duration="988" />
     <task
         name="verifier"
-        duration="584" />
+        duration="661" />
 
     <artifact
         location="/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBaseDemo/build/intermediates/split-apk/debug/dep/dependencies.apk"
@@ -30,13 +30,13 @@
         location="/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBaseDemo/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBaseDemo/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
         location="/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBaseDemo/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
         location="/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBaseDemo/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBaseDemo/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
     <artifact
         location="/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBaseDemo/build/intermediates/split-apk/debug/slices/slice_4.apk"
@@ -62,7 +62,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1517150546137"
+        timestamp="1517151426730"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBaseDemo/build/intermediates/split-apk/debug/dep/dependencies.apk"
@@ -71,13 +71,13 @@
             location="/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBaseDemo/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBaseDemo/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
             location="/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBaseDemo/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBaseDemo/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBaseDemo/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBaseDemo/build/intermediates/split-apk/debug/slices/slice_4.apk"

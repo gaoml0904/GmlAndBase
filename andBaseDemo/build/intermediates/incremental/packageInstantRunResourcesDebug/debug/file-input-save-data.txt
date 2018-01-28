@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jan 28 21:17:24 CST 2018
+#Sun Jan 28 22:57:07 CST 2018
 1.base=/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBaseDemo/build/intermediates/assets/debug
 2.path=fonts/jianchilun.ttf
 0.baseType=DIRECTORY
