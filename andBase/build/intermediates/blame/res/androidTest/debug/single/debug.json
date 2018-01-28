@@ -4,6 +4,14 @@
         "source": "/Users/maolingao/AndroidStudioProjects/AndBaseDemo/andBase/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_launcher.png"
     },
     {
+        "merged": "/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBase/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_ic_launcher.png.flat",
+        "source": "/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBase/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBase/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_ic_launcher.png.flat",
+        "source": "/Users/maolingao/AndroidStudioProjects/GmlAndBase/andBase/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_launcher.png"
+    },
+    {
         "merged": "/Users/maolingao/AndroidStudioProjects/AndBaseDemo/andBase/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_ic_launcher.png.flat",
         "source": "/Users/maolingao/AndroidStudioProjects/AndBaseDemo/andBase/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_launcher.png"
     }

@@ -31,7 +31,7 @@
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
     <application
-        android:name="com.andbase.Demo.global.MyApplication"
+        android:name="com.andbase.global.MyApplication"
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@drawable/ic_launcher"
@@ -39,7 +39,7 @@
         android:testOnly="true"
         android:theme="@style/myTheme" >
         <activity
-            android:name="com.andbase.Demo.main.LauncherActivity"
+            android:name="com.andbase.main.LauncherActivity"
             android:configChanges="keyboardHidden|orientation"
             android:launchMode="singleTop" >
             <intent-filter>
@@ -49,315 +49,315 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.andbase.Demo.main.MainActivity"
+            android:name="com.andbase.main.MainActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.DemoMainActivity"
+            android:name="com.andbase.demo.activity.DemoMainActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.DialogActivity"
+            android:name="com.andbase.demo.activity.DialogActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.ImageDownActivity"
+            android:name="com.andbase.demo.activity.ImageDownActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.AnimationActivity"
+            android:name="com.andbase.demo.activity.AnimationActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.UIElementActivity"
+            android:name="com.andbase.demo.activity.UIElementActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.CityListActivity"
+            android:name="com.andbase.demo.activity.CityListActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.DemoAbActivity"
+            android:name="com.andbase.demo.activity.DemoAbActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.DBInsideSampleActivity"
+            android:name="com.andbase.demo.activity.DBInsideSampleActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.DBSDSampleActivity"
+            android:name="com.andbase.demo.activity.DBSDSampleActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.DBOne2OneActivity"
+            android:name="com.andbase.demo.activity.DBOne2OneActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.DBOne2ManyActivity"
+            android:name="com.andbase.demo.activity.DBOne2ManyActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.DBObjectActivity"
+            android:name="com.andbase.demo.activity.DBObjectActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.TitleBarActivity"
+            android:name="com.andbase.demo.activity.TitleBarActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.ThreadControlActivity"
+            android:name="com.andbase.demo.activity.ThreadControlActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.TabActivity"
+            android:name="com.andbase.demo.activity.TabActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.TabTopActivity"
+            android:name="com.andbase.demo.activity.TabTopActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.TabBottomActivity"
+            android:name="com.andbase.demo.activity.TabBottomActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.DownListActivity"
+            android:name="com.andbase.demo.activity.DownListActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.DBActivity"
+            android:name="com.andbase.demo.activity.DBActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.PullToRefreshActivity"
+            android:name="com.andbase.demo.activity.PullToRefreshActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.ChartActivity"
+            android:name="com.andbase.demo.activity.ChartActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.PullToRefreshListActivity"
+            android:name="com.andbase.demo.activity.PullToRefreshListActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.PullToRefreshGridActivity"
+            android:name="com.andbase.demo.activity.PullToRefreshGridActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.SlidingButtonActivity"
+            android:name="com.andbase.demo.activity.SlidingButtonActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.SlidingPlayViewActivity"
+            android:name="com.andbase.demo.activity.SlidingPlayViewActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.SlidingLeftActivity"
+            android:name="com.andbase.demo.activity.SlidingLeftActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.WelcomeActivity"
+            android:name="com.andbase.demo.activity.WelcomeActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.XYLineChartActivity"
+            android:name="com.andbase.demo.activity.XYLineChartActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.XYBarChartActivity"
+            android:name="com.andbase.demo.activity.XYBarChartActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.PieChartActivity"
+            android:name="com.andbase.demo.activity.PieChartActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.TimeChartActivity"
+            android:name="com.andbase.demo.activity.TimeChartActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.XYAreaChartActivity"
+            android:name="com.andbase.demo.activity.XYAreaChartActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.LevelChartActivity"
+            android:name="com.andbase.demo.activity.LevelChartActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.WheelActivity"
+            android:name="com.andbase.demo.activity.WheelActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.CropImageActivity"
+            android:name="com.andbase.demo.activity.CropImageActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.AddPhotoActivity"
+            android:name="com.andbase.demo.activity.AddPhotoActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.CalendarActivity"
+            android:name="com.andbase.demo.activity.CalendarActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.PHashActivity"
+            android:name="com.andbase.demo.activity.PHashActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.PullToRefreshViewActivity"
+            android:name="com.andbase.demo.activity.PullToRefreshViewActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.PullToRefreshMultiColumnListActivity"
+            android:name="com.andbase.demo.activity.PullToRefreshMultiColumnListActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.SlidingMenuActivity"
+            android:name="com.andbase.demo.activity.SlidingMenuActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.SlidingMenuLeftActivity"
+            android:name="com.andbase.demo.activity.SlidingMenuLeftActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.SlidingMenuRightActivity"
+            android:name="com.andbase.demo.activity.SlidingMenuRightActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.SlidingMenuLeftRightActivity"
+            android:name="com.andbase.demo.activity.SlidingMenuLeftRightActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.SlidingMenuZoomActivity"
+            android:name="com.andbase.demo.activity.SlidingMenuZoomActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.SlidingMenuSlideActivity"
+            android:name="com.andbase.demo.activity.SlidingMenuSlideActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.SlidingMenuScaleActivity"
+            android:name="com.andbase.demo.activity.SlidingMenuScaleActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.SlidingMenuTitleHoldActivity"
+            android:name="com.andbase.demo.activity.SlidingMenuTitleHoldActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.CarouselActivity"
+            android:name="com.andbase.demo.activity.CarouselActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.CarouselImageActivity"
+            android:name="com.andbase.demo.activity.CarouselImageActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.CarouselViewActivity"
+            android:name="com.andbase.demo.activity.CarouselViewActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.ProgressBarActivity"
+            android:name="com.andbase.demo.activity.ProgressBarActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.ProgressBarCircleActivity"
+            android:name="com.andbase.demo.activity.ProgressBarCircleActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.ProgressBarHorizontalActivity"
+            android:name="com.andbase.demo.activity.ProgressBarHorizontalActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.IocViewActivity"
+            android:name="com.andbase.demo.activity.IocViewActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.Rotate3DActivity"
+            android:name="com.andbase.demo.activity.Rotate3DActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.Rotate3DActivity1"
+            android:name="com.andbase.demo.activity.Rotate3DActivity1"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.Rotate3DActivity2"
+            android:name="com.andbase.demo.activity.Rotate3DActivity2"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.HttpActivity"
+            android:name="com.andbase.demo.activity.HttpActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.SoapActivity"
+            android:name="com.andbase.demo.activity.SoapActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.NestScrollActivity"
+            android:name="com.andbase.demo.activity.NestScrollActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.ListNestViewPagerActivity"
+            android:name="com.andbase.demo.activity.ListNestViewPagerActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.SlidingMenuNestViewPagerActivity"
+            android:name="com.andbase.demo.activity.SlidingMenuNestViewPagerActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.AnalogClockActivity"
+            android:name="com.andbase.demo.activity.AnalogClockActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.NumberClockActivity"
+            android:name="com.andbase.demo.activity.NumberClockActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.DeskCalendarActivity"
+            android:name="com.andbase.demo.activity.DeskCalendarActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.PopoverActivity"
+            android:name="com.andbase.demo.activity.PopoverActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.demo.activity.SlidingMenuNestTabActivity"
+            android:name="com.andbase.demo.activity.SlidingMenuNestTabActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.blog.WebActivity"
+            android:name="com.andbase.blog.WebActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.login.LoginActivity"
+            android:name="com.andbase.login.LoginActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.login.RegisterActivity"
+            android:name="com.andbase.login.RegisterActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.login.AgreementActivity"
+            android:name="com.andbase.login.AgreementActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.login.FindPwdActivity"
+            android:name="com.andbase.login.FindPwdActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.login.AboutActivity"
+            android:name="com.andbase.login.AboutActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.im.activity.ContacterActivity"
+            android:name="com.andbase.im.activity.ContacterActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.im.activity.ChatActivity"
+            android:name="com.andbase.im.activity.ChatActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name="com.andbase.Demo.im.activity.MessageActivity"
+            android:name="com.andbase.im.activity.MessageActivity"
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
